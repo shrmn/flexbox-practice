@@ -127,3 +127,93 @@ table {
   border-collapse: collapse;
   border-spacing: 0;
 }
+/* Coding Starts here */
+
+container{
+  width: 800px;
+  margin: auto;
+}
+ /* NO CSS for head!! */
+
+.body{
+  align-items: center;
+  max-width: 100px;
+  margin: 0 auto;
+  background-color: azure;
+}
+
+.nav{
+  flex-direction: row;
+  justify-content: flex-end;
+  font-size: 20px;
+
+  
+}
+.header{
+  max-width: 85%;
+  border: 1 px dashed black;
+  flex-direction: row;
+}
+
+.h1{
+  font-size: 40px;
+  padding: 5px;
+}
+
+.p{
+  font-size: 10px;
+}
+
+.main{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  width: 100%;
+  border: 1px solid black;
+  background-color: beige;
+}
+
+.section{
+  width: 40%;
+  border: 1px solid blueviolet;
+  padding: 5px;
+}
+
+.article{
+  width: 75%;
+  margin: 10px 0;
+}
+
+.first{
+display: flex;
+flex-direction: column-reverse;
+justify-content: space-between;
+align-items: center;
+padding: 5px;
+background-color: cornflowerblue;
+}
+
+.first article{
+display: flex;
+background-color: thistle;
+}
+
+.first > :first-child{
+background-color: honeydew;
+}
+
+.first > :last-child{
+background-color: teal;
+}
+
+.first > :nth-child(2){
+background-color: yellow;
+}
+
+.first > :nth-child(3){
+background-color: dodgerblue;
+}
+
+.footer{
+  text-align: center;
+}
