@@ -1,4 +1,4 @@
-###Flexbox Practice
+### Flexbox Practice
 
 This exercise is meant to be freeform. You will see that there is an HTML file `index.html` which should contain all the semantic markup you need to be able to use CSS to style and position the content. How you lay it out is up to you. Use your creativity. `index.css` already has the Eric Meyer CSS reset in it.
 
