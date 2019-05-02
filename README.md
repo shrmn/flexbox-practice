@@ -9,7 +9,7 @@ Lambda School's Git workflow:
 <details>
 <summary>1. Fork the repo to create YOUR OWN version of the project</summary>
    
-   Open the project on GitHub and click the `fork` button in the upper right.
+   Click the `fork` button in the upper right.
 
 </details>
 
