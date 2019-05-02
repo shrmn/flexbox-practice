@@ -131,9 +131,10 @@ table {
 /* Your code starts here */
 
 /* global styles */
-/* * {
+
+* {
   outline: 1px solid red;
-} */
+}
 
 body {
   box-sizing: border-box;
